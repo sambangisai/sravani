@@ -1,0 +1,113 @@
+@charset "UTF-8";
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box; 
+}
+
+body{ 
+	height: 100%; 
+    background-size: cover;
+    background-color: #ffff80;
+  
+}
+/*pets.jsp */
+
+.adop-box{
+	background-image:tranparent;
+	padding: 20px 30px 10px 30px;
+	position:absolute;
+	top: 5%;
+	text-align:center;
+	left:25%;
+	background:orange;	
+	height: 100%;
+	width:50%;
+	border-radius:25px;
+	overflow:hidden;
+}
+
+.adop-box h2{
+	font-size:200%;
+} 
+
+
+
+.adop-box select{
+	padding: 10px 10px;
+} 
+
+.adop-box h3{
+	padding: 10px 10px;
+} 
+
+.adop-box .table{
+	font-size:110%;
+	width: 100%; 
+	border:black;
+	border-collapse: collapse; 
+	text-align: left;
+}
+
+.main2{
+	z-index:1;
+	position:fixed;
+	background:#e0e0e0;
+	height: 100%;
+	left:0;
+	top:0%;
+	right:0%;
+	width:13.5%;
+
+}
+.main2 img{
+	width:200px;
+	height:150px;
+	left:5%;
+	border:black;
+	padding: 10px 10px 10px 10px;
+	
+	border-radius: 30px;
+}
+
+.main3{
+	z-index:1;
+	position:fixed;
+	background:#e0e0e0;
+	height: 100%;
+	top:0%;
+	right:0%;
+	width:13.5%;
+
+}
+.main2 .desc{
+    text-align: center;
+}
+
+.main2 .side{
+	  border: 1px solid #ccc;
+}
+.main2 .side:hover{
+	  border: 3px solid black;
+}
+
+.main3 img{
+	width:200px;
+	height:150px;
+	left:5%;
+	border:black;
+	padding: 10px 10px 10px 10px;
+	
+	border-radius: 30px;
+}
+
+.main3 .desc{
+    text-align: center;
+}
+
+.main3 .side1{
+	  border: 1px solid #ccc;
+}
+.main3 .side1:hover{
+	  border: 3px solid black;
+}
